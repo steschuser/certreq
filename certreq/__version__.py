@@ -1,0 +1,8 @@
+__title__ = 'certreq'
+__description__ = 'python implementation of certreq'
+__url__ = 'https://github.com/steschuser/certreq'
+__version__ = '0.0.1'
+__author__ = 'Steffen Schwebel'
+__author_email__ = 'steffen@schwebel.online'
+__license__ = 'MIT'
+__cake__ = u'\u2728 \U0001f370 \u2728'
