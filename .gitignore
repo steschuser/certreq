@@ -1,3 +1,9 @@
+# dont commit Certificates 
+*.csr
+*.crt
+*.pem
+
+# ingore twine
 .pypirc
 #
 # Byte-compiled / optimized / DLL files
