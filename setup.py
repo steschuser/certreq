@@ -109,7 +109,7 @@ setup(
     # py_modules=['mypackage'],
 
      entry_points={
-         'console_scripts': ['certreq=certreq:cli'],
+         'console_scripts': ['certreq=certreq:main'],
      },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
