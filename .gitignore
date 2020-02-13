@@ -1,3 +1,5 @@
+# ignore html
+*.html
 # dont commit Certificates 
 *.csr
 *.crt
