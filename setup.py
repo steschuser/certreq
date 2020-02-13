@@ -22,7 +22,7 @@ VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'requests', 'requests_ntlm', 'loguru', 'parse_it'
+    'requests', 'requests_ntlm', 'loguru', 'parse_it', 'bs4'
     # 'requests', 'maya', 'records',
 ]
 
@@ -109,7 +109,7 @@ setup(
     # py_modules=['mypackage'],
 
      entry_points={
-         'console_scripts': ['certreq=certreq:main'],
+         'console_scripts': ['certreq=certreq:cli'],
      },
     install_requires=REQUIRED,
     extras_require=EXTRAS,

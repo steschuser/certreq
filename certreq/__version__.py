@@ -8,3 +8,4 @@ __author__ = 'Steffen Schwebel'
 __author_email__ = 'steffen@schwebel.online'
 __license__ = 'MIT'
 __cake__ = u'\u2728 \U0001f370 \u2728'
+__configpath__ = "/etc/{}/{}.conf".format(__title__, __title__)
